@@ -1,0 +1,297 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "1c7f48fbd45532be4d12e5ddc303b6369831e99e",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3383192,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "1ccba58afcddd22d4efdc6c483a04735323d67b1",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 54590280,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "fc3d0c5acaf9a8b4d0e68909574f66d76bffee4b",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/libil2cpp.so-7b92f6a08f427a3c",
+   "xfrm_size": 54591038
+  },
+  {
+   "compression": 8,
+   "hash": "fa2b8ff146caf64688e7aa835af0034ca81b5505",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 282448,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "8b450064fdad706774ce7c089e32e4790b2db435",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/AudioPluginMSASpatializer.so-c243f6c489814f39",
+   "xfrm_size": 283206
+  },
+  {
+   "compression": 8,
+   "hash": "134eac416c583401014c558ed5af6c926fdc258b",
+   "pkgpath": "bin/LuminMediaPlayer.dll",
+   "size": 68096,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/LuminMediaPlayer.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "bada121f1f4ec16ace56affb65164d688458799c",
+   "pkgpath": "bin/LuminUnity.dll",
+   "size": 329216,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/LuminUnity.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "b8ce049d2e85f27cc7346d7551d1853b20e78461",
+   "pkgpath": "bin/MSA.Runtime.dll",
+   "size": 22016,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/MSA.Runtime.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "a71acc50817a0929bccc93cbe7619d57d25d1b17",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3077192,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "663df37e8ec143253912e1a707611242f98044c3",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/UnityMagicLeap.so-c243f6c489814f39",
+   "xfrm_size": 3077950
+  },
+  {
+   "compression": 8,
+   "hash": "fbfa4a6aa20b14e0f60550676e5d34bebb99d46d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "d92613b101dcbc9207350d2a818e8632163084fc",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/libml_camera_plugin.so-c243f6c489814f39",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "88ac1047e0ac5686d703471c3115f719ca66a4e8",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "d07496aa5e651049e7d5f28c45b4587102f18d38",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/libml_mediaplayer_plugin.so-c243f6c489814f39",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "fa10859a933989c5961257c02d9f4fcf042044f1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3689324,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "a5eeaec1a39ec62f72e4f94518f71f0bda645b69",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 770468,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "f226dfc0f1097b18c77eb2198b6257be5b02a613",
+   "pkgpath": "Data/boot.config",
+   "size": 123,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "6cadf93a08dbcf0947291353232c67c9a97074c3",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 60512,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "661b134f08fc85e9682c5d1126336c64a61ee513",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 85348,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "637d128744e361dd36e745ac55dab029badc613c",
+   "pkgpath": "Data/level0",
+   "size": 28964,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "6bd7bffc0c3c8e3b2fa01b514edec29d5765616c",
+   "pkgpath": "Data/resources.assets",
+   "size": 32704,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "1d5e5447a0f0b085b695376c9fdb7738e07e4f23",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "72df8187e8b57e64fb93926431a0053987da4917",
+   "pkgpath": "Data/resources.resource",
+   "size": 5875136,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/resources.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "2f5370d5ec46855cc0aec056cc5eae8151a3237c",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1676016,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "45afafced04ed9d57bdced07d368e127ad70cf1b",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 7381876,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "1d0b867cf3a8813ca25dca125b079fc066fc9a63",
+   "pkgpath": "bin/Player.elf",
+   "size": 20710840,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4497935a0a38b5ebbefe54047ecfb8f726b370b0",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/Player.elf-f966c6f4b986d8e2",
+   "xfrm_size": 20711598
+  },
+  {
+   "compression": 8,
+   "hash": "141407e84e37299be7b337dc700d081786790170",
+   "pkgpath": "manifest.xml",
+   "size": 1421,
+   "src": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "151b23b16ded3d094690db3f92a32b671c391499",
+     "developer_id": "fd05fddd-33f3-46e3-888e-25aa94deee72"
+    }
+   },
+   "xfrm_hash": "6774687d67505d7490e1117990f75d713e0be76d",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/manifest.xml-f966c6f4b986d8e2",
+   "xfrm_size": 1434
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/bfbatista/MagicLeap/mlsdk/v0.22.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "cca46d167dd872e8408230f20b91ee15d1de5766",
+   "xfrm_path": "/Users/bfbatista/Desktop/CARVR Unity Projects/ML_ProjectTemplate/.out/.cache/debug_lumin_clang-3.8_aarch64/com.brianbatista.magicleap-93e0db10cf9f4e46/libc++_shared.so-515a18cb73ad137d",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
