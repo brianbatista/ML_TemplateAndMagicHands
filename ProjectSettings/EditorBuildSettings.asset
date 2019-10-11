@@ -6,14 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/HelloCube.unity
+    path: Assets/_Scenes/HelloCube.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/HandMeshing.unity
     guid: 973d66364d49a3d4e9aceb19ce1117cb
-  - enabled: 1
-    path: Assets/Scenes/HandMeshing_Particlesv2.unity
+  - enabled: 0
+    path: Assets/_Scenes/HandMeshing_Particlesv2.unity
     guid: 0de50b0bf78bb43f395fba0fbf09b9ee
+  - enabled: 0
+    path: Assets/_Scenes/BFB_PlaneExtraction.unity
+    guid: 3f2280a08579149f09e5c971bcfe85bf
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Planes.unity
+    guid: 5fca2d94f0384ff42b981955c16012ef
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Persistence.unity
+    guid: e79870b2eb36346328264d71a965cd0a
+  - enabled: 1
+    path: Assets/_Scenes/_ContentPersistance.unity
+    guid: a62cb115a44064d5b8f681a41ff7aebe
   m_configObjects:
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 2fc57849b7900411d896fc48fe394447,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ba4dbd235ed941bb8fdb5a40ab00f22,
       type: 2}

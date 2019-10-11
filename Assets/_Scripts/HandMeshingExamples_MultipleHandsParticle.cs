@@ -71,6 +71,7 @@ namespace MagicLeap
             {
                 if (MLHands.Left.KeyPose == _keyposeForParticles && MLHands.Left.KeyPoseConfidence > _minimumConfidence)
                 {
+
                     _statusLeftHand.text = "Left hand " + _keyposeForParticles + ": <color=green>Yes</color>";
                     _particleSystemToUse_Left.SetActive(true);
                     _particleSystemToUse_Left.GetComponent<ParticleSystem>().Play();
