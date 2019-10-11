@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/Persistence.unity
     guid: e79870b2eb36346328264d71a965cd0a
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/_ContentPersistance.unity
     guid: a62cb115a44064d5b8f681a41ff7aebe
+  - enabled: 1
+    path: Assets/_Scenes/HandMeshing_Particles_withLineRender.unity
+    guid: 534ec8633958d4b43b1d2e4982b19922
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 2fc57849b7900411d896fc48fe394447,
       type: 2}

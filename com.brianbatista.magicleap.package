@@ -2,7 +2,7 @@
 
 
 USES = \
-	"/Users/bfbatista/Desktop/CARVR Unity Projects/ML_TemplateAndMagicHands/Temp/StagingArea/assets" \
+	"X:\Unity Projects\ML_TemplateAndMagicHands\Temp/StagingArea\assets" \
 
 
 ######### DO NOT EDIT ABOVE #########
