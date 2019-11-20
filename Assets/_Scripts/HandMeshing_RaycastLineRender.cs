@@ -98,6 +98,15 @@ namespace MagicLeap
 
         void Update()
         {
+            RaycastHit hit;
+            if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit, _rayMaxDistance))
+                {
+                    if(!hit.transform.CompareTag("mesh"))
+                    {
+                    _statusRaycast.text = "Raycast <color=green>hit</color>: " + hit.collider.gameObject.name;                    
+                    }
+                }
+
             if (MLHands.IsStarted)
             {
                 if (MLHands.Left.KeyPoseConfidence <= (_minimumConfidence/ 3.0f))
@@ -108,12 +117,6 @@ namespace MagicLeap
                 laserLine.enabled = false;
                 }
 
-                RaycastHit hit;
-                if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit, _rayMaxDistance))
-                    {
-                        _statusRaycast.text = "Raycast <color=green>hit</color>: " + hit.collider.gameObject.name;                    
-                    }
-
                 if (MLHands.Left.KeyPose == _keyposeForParticles && MLHands.Left.KeyPoseConfidence > _minimumConfidence)
                 {
                     _statusLeftHand.text = _keyposeForParticles + ": <color=green>Yes</color>";
@@ -122,19 +125,22 @@ namespace MagicLeap
                     // If raycast hits...
                     if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit_2, _rayMaxDistance))
                     {
-                        _statusRaycast.text = "Raycast <color=green>hit</color>: " + hit_2.collider.gameObject.name;                    
-                        laserLine.enabled = true;
-                        laserLine.SetPosition(0, new Vector3 (MLHands.Left.Center.x, MLHands.Left.Center.y + _particleOffset, MLHands.Left.Center.z));
-                        laserLine.SetPosition(1, hit_2.transform.position);
-                        GameObject _destroyParticleEffectClone = Instantiate (_destroyParticleEffect, hit_2.transform.position, Quaternion.Euler(-90, 0, 0)) as GameObject;
-                        Destroy(hit_2.transform.gameObject, 1.0f);
-                        Destroy (_destroyParticleEffectClone, 1.5f);
+                        _statusRaycast.text = "Raycast <color=green>hit</color>: " + hit_2.collider.gameObject.name;
+                        if(hit_2.transform.CompareTag("destroyable"))
+                        {
+                            laserLine.enabled = true;
+                            laserLine.SetPosition(0, new Vector3 (MLHands.Left.Center.x, MLHands.Left.Center.y + _particleOffset, MLHands.Left.Center.z));
+                            laserLine.SetPosition(1, hit_2.transform.position);
+                            GameObject _destroyParticleEffectClone = Instantiate (_destroyParticleEffect, hit_2.transform.position, Quaternion.Euler(-90, 0, 0)) as GameObject;
+                            Destroy(hit_2.transform.gameObject, 1.0f);
+                            Destroy (_destroyParticleEffectClone, 1.5f);
+                        }
                     }
 
                     // If it doesn't...
                     else
                     {
-                        _statusRaycast.text = "Raycast <color=red>hasn't hit.</color>";                    
+                        _statusRaycast.text = "Raycast <color=red>hasn't hit anything.</color>";                    
                         laserLine.enabled = false;
                     }  
                 }

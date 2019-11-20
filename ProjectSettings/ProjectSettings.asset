@@ -653,7 +653,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: X:/Unity Projects/_MagicLeapCertificates/brianfbatista_carvr.cert
+    m_CertPath: /Users/bfbatista/Desktop/privatekey/brianfbatista_carvr.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
